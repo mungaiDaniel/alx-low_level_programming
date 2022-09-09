@@ -19,8 +19,11 @@ int main(void)
 		{
 			break;
 		}
-		putchar(',');
-		putchar(' ');
+		else if (alphabets < 57)
+		{
+			putchar(',');
+			putchar(' ');
+		}
 	}
 	putchar ('\n');
 
