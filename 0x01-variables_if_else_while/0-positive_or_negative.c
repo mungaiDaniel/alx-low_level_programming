@@ -8,6 +8,9 @@ int main(void)
 {
 	int n;
 
+	printf("Enter a random number:\n ");
+	scanf("%d\n", &n);
+
 	if (n > 0)
 
 	{
