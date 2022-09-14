@@ -17,7 +17,6 @@ void jack_bauer(void)
 
 	while (hour <= 23)
 	{
-		
 		while (min <= 59)
 		{
 			min_rem = min % 10;
