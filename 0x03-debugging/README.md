@@ -1,1 +1,1 @@
-Debugging whereby is the process of finding and resloving defects or problems that prevent correct operation within computer programs, softwares or systems
+0x03. C - Debugging is the process of finding and resolving bugs(defects or problems that prevents correct operation within computer programs, software or systems
