@@ -2,7 +2,6 @@
 /**
  * main - tests function that prints if positive or negative
  *
- * positive_or_negative(): function that return positive or negative
  *
  * Return: (0)
  */
