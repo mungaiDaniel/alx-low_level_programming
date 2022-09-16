@@ -27,6 +27,10 @@ void print_triangle(int size)
 			{
 				_putchar('#');
 			}
+			if (len == size)
+			{
+				continue;
+			}
 			_putchar('\n');
 		}
 	}
