@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - program that prints either number or fizzbuzz
@@ -33,6 +34,6 @@ int main(void)
 			printf("%d ", i);
 		}
 	}
-
+	putchar('\n');
 	return (0);
 }
