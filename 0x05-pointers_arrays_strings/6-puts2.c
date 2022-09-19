@@ -3,15 +3,15 @@
 #include <stdio.h>
 
 /**
- * print_rev - print a string in reverse
- * @s: parametares for the function
+ * puts2 - print even no
+ * @str: parametares for the function
  * Return: nothing
  */
-void print_rev(char *s)
+void puts2(char *str)
 {
 	int lent;
 
-	lent = strlen(s);
+	lent = strlen(str);
 
 	if (lent % 2 == 0)
 	{
