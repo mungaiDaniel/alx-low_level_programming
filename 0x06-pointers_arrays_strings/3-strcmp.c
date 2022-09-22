@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * char _strcmp - function that compare two strings
+ * _strcmp - function that compare two strings
  * @s1: first char argument
  * @s2: second char argument
  * Return: comparison
