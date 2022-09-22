@@ -3,11 +3,11 @@
 #include <stdio.h>
 
 /**
- * string_toupper - function that compare two strings
+ * cap_string - capitalizes all words of a string
  * @str: argument passed
- * Return: upper
+ * Return: capitalized
  */
-char *string_toupper(char *str)
+char *cap_string(char *str)
 {
 	int index = 0;
 
