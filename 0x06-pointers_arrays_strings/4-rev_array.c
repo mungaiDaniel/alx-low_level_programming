@@ -3,21 +3,19 @@
 #include <stdio.h>
 
 /**
- * _strcmp - function that compare two strings
- * @s1: first char argument
- * @s2: second char argument
- * Return: comparison
+ * reverse_array - function that reverses an array
+ * @a: array
+ * @n: number of element in an array
+ * Return: reverse
  */
-int _strcmp(char *s1, char *s2)
+void reverse_array(int *a, int n)
 {
-	int i;
-	int result;
+	int temp, index;
 
-	for (i = 0; i < n; i++)
+	for (index = n - 1; index >= n / 2; index--)
 	{
-		result = strrev(s1[i]);
+		temp = a[n - 1 - index];
+		a[n - 1 - index] = a[index];
+		a[index] = temp;
 	}
-
-
-	return (result);
 }
